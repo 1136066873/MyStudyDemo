@@ -1,1 +1,1 @@
-include ':app', ':hidenavigationbardemo'
+include ':app', ':hidenavigationbardemo', ':retrofitandviewmodeldemo'
