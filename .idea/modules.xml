@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyStudyDemo.iml" filepath="$PROJECT_DIR$/MyStudyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastwithpermission-receive/broadcastwithpermission-receive.iml" filepath="$PROJECT_DIR$/broadcastwithpermission-receive/broadcastwithpermission-receive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission.iml" filepath="$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/hidenavigationbardemo/hidenavigationbardemo.iml" filepath="$PROJECT_DIR$/hidenavigationbardemo/hidenavigationbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitandviewmodeldemo/retrofitandviewmodeldemo.iml" filepath="$PROJECT_DIR$/retrofitandviewmodeldemo/retrofitandviewmodeldemo.iml" />
     </modules>

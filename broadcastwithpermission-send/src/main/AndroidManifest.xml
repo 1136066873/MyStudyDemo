@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.heguodong.study.broadcastwithpermission">
+
+
+    <permission android:name="com.android.permission.AAA"/>
+    <uses-permission android:name="com.android.permission.AAA"/>
+
+    <!--尽管发送广播的app已经在功能清单列表中声明了这个权限，但是这个参数在发送广播的时候仍然需要携带出去，否则无法有效发送广播-->
+    <uses-permission android:name="com.android.permission.SEND_XXX"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MainActivity$MyBroadcastReceiver"
+            android:permission="com.android.permission.AAA">
+
+            <intent-filter >
+                <action android:name="com.android.action.MY_APP_ACTION"/>
+            </intent-filter>
+
+        </receiver>
+
+
+    </application>
+
+</manifest>

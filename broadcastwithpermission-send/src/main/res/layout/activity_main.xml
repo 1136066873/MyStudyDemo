@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heguodong.study.broadcastwithpermission.MainActivity">
+
+    <Button
+        android:id="@+id/btn_send_broadcast_to_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click button to send broadcast(To self)"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_send_broadcast_to_another_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click button to send broadcast(To another app )"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btn_send_broadcast_to_self"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information to be displayed"
+        android:layout_below="@+id/btn_send_broadcast_to_another_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"/>
+
+</RelativeLayout>

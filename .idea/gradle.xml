@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/broadcastwithpermission-receive" />
+            <option value="$PROJECT_DIR$/broadcastwithpermission-send" />
             <option value="$PROJECT_DIR$/hidenavigationbardemo" />
             <option value="$PROJECT_DIR$/retrofitandviewmodeldemo" />
           </set>
