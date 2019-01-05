@@ -8,11 +8,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/addemo" />
+            <option value="$PROJECT_DIR$/adspacedemo" />
+            <option value="$PROJECT_DIR$/advertisingspacedemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/broadcastwithpermission-receive" />
             <option value="$PROJECT_DIR$/broadcastwithpermission-send" />
             <option value="$PROJECT_DIR$/hidenavigationbardemo" />
+            <option value="$PROJECT_DIR$/locationdemo" />
             <option value="$PROJECT_DIR$/retrofitandviewmodeldemo" />
+            <option value="$PROJECT_DIR$/templocationdemo" />
+            <option value="$PROJECT_DIR$/testtemplocationdemo" />
+            <option value="$PROJECT_DIR$/verticalviewpager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
