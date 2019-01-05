@@ -3,11 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyStudyDemo.iml" filepath="$PROJECT_DIR$/MyStudyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addemo/addemo.iml" filepath="$PROJECT_DIR$/addemo/addemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adspacedemo/adspacedemo.iml" filepath="$PROJECT_DIR$/adspacedemo/adspacedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advertisingspacedemo/advertisingspacedemo.iml" filepath="$PROJECT_DIR$/advertisingspacedemo/advertisingspacedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\my_study\MyStudyDemo\broadcastwithpermission-send\broadcastwithpermission.iml" filepath="D:\my_study\MyStudyDemo\broadcastwithpermission-send\broadcastwithpermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcastwithpermission-receive/broadcastwithpermission-receive.iml" filepath="$PROJECT_DIR$/broadcastwithpermission-receive/broadcastwithpermission-receive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission.iml" filepath="$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission-send.iml" filepath="$PROJECT_DIR$/broadcastwithpermission-send/broadcastwithpermission-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/hidenavigationbardemo/hidenavigationbardemo.iml" filepath="$PROJECT_DIR$/hidenavigationbardemo/hidenavigationbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/locationdemo/locationdemo.iml" filepath="$PROJECT_DIR$/locationdemo/locationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitandviewmodeldemo/retrofitandviewmodeldemo.iml" filepath="$PROJECT_DIR$/retrofitandviewmodeldemo/retrofitandviewmodeldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/templocationdemo/templocationdemo.iml" filepath="$PROJECT_DIR$/templocationdemo/templocationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testtemplocationdemo/testtemplocationdemo.iml" filepath="$PROJECT_DIR$/testtemplocationdemo/testtemplocationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verticalviewpager/verticalviewpager.iml" filepath="$PROJECT_DIR$/verticalviewpager/verticalviewpager.iml" />
     </modules>
   </component>
 </project>
