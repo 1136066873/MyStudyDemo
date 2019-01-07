@@ -22,6 +22,8 @@ import android.widget.ImageView;
  * 为了便于实例，所有的图片处理都放在activity中进行
  *
  * https://www.jianshu.com/p/818e1284158d
+ *
+ * https://www.jianshu.com/p/1e8cf265e77e
  */
 public class MainActivity extends AppCompatActivity {
 
