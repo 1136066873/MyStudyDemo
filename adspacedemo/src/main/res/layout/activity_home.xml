@@ -6,43 +6,8 @@
               android:gravity="bottom"
               android:orientation="vertical">
 
-    <!--              android:gravity="center_horizontal"-->
-
-<!--    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/green"
-            android:gravity="center_vertical|left"
-            android:paddingLeft="@dimen/left_padding"
-            android:text="@string/app_name"
-            android:textColor="@color/text_color"
-            android:textSize="@dimen/text_font_size_big_22sp"/>
-
-        <ImageView
-            android:id="@+id/about_iv"
-            android:layout_width="?attr/actionBarSize"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/github_click_bg"
-            android:padding="@dimen/normal_padding"
-            android:src="@mipmap/about_icon"/>
-
-    </LinearLayout>-->
-
-<!--    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test Test Test TestTest Test Test Test Test Test Test Test Test Test Test Test Test"/>-->
-
     <LinearLayout
         android:layout_marginStart="20dp"
-
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,17 +16,8 @@
         <com.haier.demo.adspacedemo.library.OrientedViewPager
             android:id="@+id/view_pager"
             android:layout_width="280dp"
-            android:layout_height="160dp"
-            />
-        <!--android:background="@color/text_color"-->
+            android:layout_height="160dp"/>
 
     </LinearLayout>
-
-<!--    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test Test Test TestTest Test Test Test Test Test Test Test Test Test Test Test Test"/>-->
-
 
 </LinearLayout>

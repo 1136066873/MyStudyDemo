@@ -8,28 +8,28 @@ import java.io.Serializable;
 
 public class BannerBean implements Serializable {
 
-    private String mCurrentBinnerUrl ;
+    private String mCurrentBannerUrl;
 
-    private String mCurrentBinnerAdvertisingLink ;
+    private String mCurrentBannerAdvertisingLink;
 
-    public BannerBean(String currentBinnerUrl, String currentBinnerAdvertisingLink){
-        mCurrentBinnerUrl = currentBinnerUrl;
-        mCurrentBinnerAdvertisingLink = currentBinnerAdvertisingLink;
+    public BannerBean(String currentBannerUrl, String currentBannerAdvertisingLink){
+        mCurrentBannerUrl = currentBannerUrl;
+        mCurrentBannerAdvertisingLink = currentBannerAdvertisingLink;
     }
 
-    public String getmCurrentBinnerUrl() {
-        return mCurrentBinnerUrl;
+    public String getmCurrentBannerUrl() {
+        return mCurrentBannerUrl;
     }
 
-    public String getmCurrentBinnerAdvertisingLink() {
-        return mCurrentBinnerAdvertisingLink;
+    public String getmCurrentBannerAdvertisingLink() {
+        return mCurrentBannerAdvertisingLink;
     }
 
     @Override
     public String toString() {
         return "BannerBean{" +
-                "mCurrentBinnerUrl='" + mCurrentBinnerUrl + '\'' +
-                ", mCurrentBinnerAdvertisingLink='" + mCurrentBinnerAdvertisingLink + '\'' +
+                "mCurrentBannerUrl='" + mCurrentBannerUrl + '\'' +
+                ", mCurrentBannerAdvertisingLink='" + mCurrentBannerAdvertisingLink + '\'' +
                 '}';
     }
 }
