@@ -162,10 +162,10 @@ public class MainActivity extends AppCompatActivity {
         paint.setShader(bitmapShader);
 
         // 利用画笔绘制底部圆角
-        targetCanvas.drawRoundRect(new RectF(0, outHeight - 2 * radius, outWidth, outWidth), radius, radius, paint);
+        targetCanvas.drawRoundRect(new RectF(0, 0, outWidth, 2 * radius), radius, radius, paint);
 
         // 利用画笔绘制顶部上面直角部分
-        targetCanvas.drawRect(new RectF(0, 0, outWidth, outHeight - radius), paint);
+        targetCanvas.drawRect(new RectF(0, radius, outWidth, outHeight), paint);
 
         return targetBitmap;
     }
