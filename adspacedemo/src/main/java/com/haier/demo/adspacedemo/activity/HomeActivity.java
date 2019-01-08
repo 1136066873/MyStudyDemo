@@ -4,13 +4,16 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
 
 import com.haier.demo.adspacedemo.adapter.BannerBean;
 import com.haier.demo.adspacedemo.adapter.ContentFragmentAdapter;
 import com.haier.demo.adspacedemo.fragment.CardFragment;
-import com.haier.demo.adspacedemo.library.OrientedViewPager;
-import com.haier.demo.adspacedemo.library.transformer.VerticalStackTransformer;
+import com.haier.demo.adspacedemo.library.custumerviewpager.OrientedViewPager;
+import com.haier.demo.adspacedemo.library.custumerviewpager.transformer.VerticalStackTransformer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +22,7 @@ import com.haier.demo.adspacedemo.R;
 /**
  * Created by Nate on 2016/7/22.
  */
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private OrientedViewPager mOrientedViewPager;
     private ContentFragmentAdapter mContentFragmentAdapter;
@@ -31,7 +34,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         mOrientedViewPager = findViewById(R.id.view_pager);
-
+        mOrientedViewPager.setOnClickListener(this);
 
         //制造数据
         for (int i = 0; i < 10; i++) {
@@ -49,6 +52,17 @@ public class HomeActivity extends AppCompatActivity {
         //设置transformer
         mOrientedViewPager.setPageTransformer(true, new VerticalStackTransformer(getApplicationContext()));
         mOrientedViewPager.setAdapter(mContentFragmentAdapter);
+
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.view_pager:
+                Log.e("heguodong","view_pager onClick");
+                Toast.makeText(this, "view_pager", Toast.LENGTH_SHORT).show();
+                break;
+        }
 
     }
 }

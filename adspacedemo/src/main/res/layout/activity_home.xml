@@ -2,22 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@color/white"
+              android:background="@color/green_dark"
               android:gravity="bottom"
               android:orientation="vertical">
 
-    <LinearLayout
+<!--    <LinearLayout
         android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:background="@color/colorPrimary"
+        android:gravity="center">-->
 
-        <com.haier.demo.adspacedemo.library.OrientedViewPager
+        <com.haier.demo.adspacedemo.library.custumerviewpager.OrientedViewPager
             android:id="@+id/view_pager"
             android:layout_width="280dp"
-            android:layout_height="160dp"/>
+            android:layout_height="160dp"
+            android:background="@color/colorPrimary"/>
 
-    </LinearLayout>
+<!--    </LinearLayout>-->
 
 </LinearLayout>
